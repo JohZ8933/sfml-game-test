@@ -1,0 +1,26 @@
+g++ learning.cpp -o learn.exe
+
+g++ test.cpp -o app.exe -Wall -Wextra -Wpedantic -lsfml-graphics -lsfml-window -lsfml-system
+
+
+
+
+//Horizontal move
+        float moveX = 0.0f;
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A) || sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left)) {
+                
+        }
+
+
+        if (!onFloor) {
+            movement.y += GRAVITY;
+        }
+        
+        onFloor = true;
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Space)) {
+            movement.y -= JUMP;
+            onFloor = false;
+        }
+
+
+        
