@@ -1,0 +1,1 @@
+The main file is on test.cpp, this game is on alpha, so there are much thing coming :)
