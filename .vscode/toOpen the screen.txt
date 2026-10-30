@@ -1,6 +1,6 @@
 g++ learning.cpp -o learn.exe
 
-g++ test.cpp -o app.exe -Wall -Wextra -Wpedantic -lsfml-graphics -lsfml-window -lsfml-system
+g++ test.cpp -o appv2.exe -Wall -Wextra -Wpedantic -lsfml-graphics -lsfml-window -lsfml-system
 
 
 
